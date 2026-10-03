@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 230" role="img" aria-labelledby="title desc">
+  <title id="title">Schematický vývoj loga Facebooku</title>
+  <desc id="desc">Čtyři karty ukazují značky TheFacebook, facebook a zjednodušené modré symboly f.</desc>
+  <rect width="920" height="230" rx="18" fill="#f4f7fc"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(12 12)"><rect width="214" height="206" rx="14" fill="#fff"/><text x="107" y="35" fill="#667085" font-size="16">2004</text><text x="107" y="112" fill="#3b5998" font-size="27" font-weight="bold">thefacebook</text><text x="107" y="174" fill="#667085" font-size="13">původní název</text></g>
+    <g transform="translate(242 12)"><rect width="214" height="206" rx="14" fill="#fff"/><text x="107" y="35" fill="#667085" font-size="16">2005</text><text x="107" y="116" fill="#3b5998" font-size="36" font-weight="bold">facebook</text><text x="107" y="174" fill="#667085" font-size="13">textový wordmark</text></g>
+    <g transform="translate(472 12)"><rect width="214" height="206" rx="14" fill="#fff"/><text x="107" y="35" fill="#667085" font-size="16">2015</text><circle cx="107" cy="107" r="44" fill="#1877f2"/><text x="107" y="131" fill="#fff" font-size="66" font-weight="bold">f</text><text x="107" y="185" fill="#667085" font-size="13">ikona pro aplikaci</text></g>
+    <g transform="translate(702 12)"><rect width="206" height="206" rx="14" fill="#fff"/><text x="103" y="35" fill="#667085" font-size="16">dnes</text><circle cx="82" cy="107" r="39" fill="#1877f2"/><text x="82" y="129" fill="#fff" font-size="59" font-weight="bold">f</text><text x="141" y="114" fill="#344054" font-size="18" font-weight="bold">facebook</text><text x="103" y="185" fill="#667085" font-size="13">samostatná značka</text></g>
+  </g>
+</svg>

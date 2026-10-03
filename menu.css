@@ -1,0 +1,99 @@
+#navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    margin: 0 4px;
+}
+
+#navbar ul li a i {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+#navbar ul li a:hover {
+    background-color: #999999;
+    border-radius: 5px;
+}
+
+#navbar ul li a[aria-current="page"],
+#navbar ul li a[aria-current="page"]:hover {
+    background-color: #333;
+}
+
+@media (hover: hover) {
+    #navbar ul li a:hover i {
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width: 1400px) {
+    #navbar ul {
+        gap: 4px;
+    }
+
+    #navbar ul li a {
+        justify-content: center;
+        gap: 0;
+        width: 48px;
+        height: 48px;
+        box-sizing: border-box;
+        padding: 8px;
+        font-size: 0;
+    }
+
+    #navbar ul li a i {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    #navbar {
+        justify-content: center;
+        padding: 8px;
+    }
+
+    #navbar ul {
+        gap: 2px;
+    }
+
+    #navbar ul li a {
+        width: 42px;
+        height: 42px;
+        margin: 0 2px;
+    }
+
+    #navbar ul li a i {
+        font-size: 21px;
+    }
+}
+
+.text-primary {
+    color: #999999;
+}

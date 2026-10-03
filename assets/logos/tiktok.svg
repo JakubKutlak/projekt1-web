@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 230" role="img" aria-labelledby="title desc">
+  <title id="title">Schematický vývoj značky TikTok</title>
+  <desc id="desc">Čtyři karty porovnávají značku Douyin, raný TikTok a jeho dnešní notový symbol.</desc>
+  <rect width="920" height="230" rx="18" fill="#f4f5f6"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(12 12)"><rect width="214" height="206" rx="14" fill="#fff"/><text x="107" y="35" fill="#667085" font-size="16">2016 · Čína</text><path d="M105 70v54c0 13-20 15-20 3 0-9 9-12 17-8V63h34v16c-9-2-20-7-28-15" fill="#111" stroke="#fe2c55" stroke-width="3"/><text x="107" y="171" fill="#222" font-size="20" font-weight="bold">Douyin</text></g>
+    <g transform="translate(242 12)"><rect width="214" height="206" rx="14" fill="#111"/><text x="107" y="35" fill="#aeb4bb" font-size="16">2017</text><path d="M103 68v53c0 13-20 15-20 3 0-9 9-12 17-8V61h34v16c-9-2-20-7-28-15" fill="none" stroke="#25f4ee" stroke-width="9"/><path d="M108 68v53c0 13-20 15-20 3 0-9 9-12 17-8V61h34v16c-9-2-20-7-28-15" fill="none" stroke="#fe2c55" stroke-width="4"/><text x="107" y="171" fill="#fff" font-size="20" font-weight="bold">TikTok</text></g>
+    <g transform="translate(472 12)"><rect width="214" height="206" rx="14" fill="#111"/><text x="107" y="35" fill="#aeb4bb" font-size="16">2018–2020</text><path d="M103 68v53c0 13-20 15-20 3 0-9 9-12 17-8V61h34v16c-9-2-20-7-28-15" fill="none" stroke="#25f4ee" stroke-width="9"/><path d="M108 68v53c0 13-20 15-20 3 0-9 9-12 17-8V61h34v16c-9-2-20-7-28-15" fill="none" stroke="#fe2c55" stroke-width="4"/><text x="107" y="171" fill="#fff" font-size="20" font-weight="bold">TikTok</text></g>
+    <g transform="translate(702 12)"><rect width="206" height="206" rx="14" fill="#111"/><text x="103" y="35" fill="#aeb4bb" font-size="16">dnes</text><path d="M99 68v53c0 13-20 15-20 3 0-9 9-12 17-8V61h34v16c-9-2-20-7-28-15" fill="none" stroke="#25f4ee" stroke-width="9"/><path d="M104 68v53c0 13-20 15-20 3 0-9 9-12 17-8V61h34v16c-9-2-20-7-28-15" fill="none" stroke="#fe2c55" stroke-width="4"/><text x="103" y="171" fill="#fff" font-size="20" font-weight="bold">TikTok</text></g>
+  </g>
+</svg>
