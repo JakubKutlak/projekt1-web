@@ -123,7 +123,7 @@ h2 {
 .facebook-profile img {
     display: block;
     width: 100%;
-    aspect-ratio: 1.42;
+    aspect-ratio: 0.82;
     object-fit: cover;
     object-position: center 35%;
 }
@@ -1637,5 +1637,100 @@ h2 {
     .help-step-number {
         width: 40px;
         height: 40px;
+    }
+}
+
+.social-page {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.social-page main.container,
+.social-page main.network-template {
+    box-sizing: border-box;
+    width: min(840px, calc(100% - 40px));
+    max-width: 840px;
+    margin: 24px auto;
+    padding: 20px;
+    line-height: 1.5;
+    background: transparent;
+    box-shadow: none;
+}
+
+.social-page main h1 {
+    font-size: 2em;
+    line-height: normal;
+}
+
+.social-page main h1 span {
+    display: inline;
+    margin: 0;
+    font-size: 0.7em;
+}
+
+.social-page main .facebook-profile,
+.social-page main .x-profile,
+.social-page main .instagram-owner,
+.social-page main .network-template-owner,
+.social-page main .facebook-facts,
+.social-page main .x-facts,
+.social-page main .instagram-facts,
+.social-page main .youtube-facts,
+.social-page main .snapchat-facts,
+.social-page main .tiktok-facts,
+.social-page main .reddit-facts,
+.social-page main .logo-history,
+.social-page main .facebook-timeline li,
+.social-page main .x-timeline li,
+.social-page main .instagram-timeline li,
+.social-page main .youtube-timeline li,
+.social-page main .snapchat-timeline li,
+.social-page main .tiktok-timeline li,
+.social-page main .reddit-timeline li {
+    border-color: #888;
+    border-radius: 10px;
+    background: #d0cece;
+    color: #222;
+    box-shadow: none;
+}
+
+.social-page main .facebook-profile *:not(a),
+.social-page main .x-profile *:not(a),
+.social-page main .instagram-owner *:not(a),
+.social-page main .network-template-owner *:not(a),
+.social-page main .facebook-facts *:not(a),
+.social-page main .x-facts *:not(a),
+.social-page main .instagram-facts *:not(a),
+.social-page main .youtube-facts *:not(a),
+.social-page main .snapchat-facts *:not(a),
+.social-page main .tiktok-facts *:not(a),
+.social-page main .reddit-facts *:not(a),
+.social-page main .logo-history *:not(a),
+.social-page main .facebook-timeline li *:not(a),
+.social-page main .x-timeline li *:not(a),
+.social-page main .instagram-timeline li *:not(a),
+.social-page main .youtube-timeline li *:not(a),
+.social-page main .snapchat-timeline li *:not(a),
+.social-page main .tiktok-timeline li *:not(a),
+.social-page main .reddit-timeline li *:not(a) {
+    color: #222;
+}
+
+.social-page main .facebook-timeline li,
+.social-page main .x-timeline li,
+.social-page main .instagram-timeline li,
+.social-page main .youtube-timeline li,
+.social-page main .snapchat-timeline li,
+.social-page main .tiktok-timeline li,
+.social-page main .reddit-timeline li {
+    border-left: 3px solid #777;
+}
+
+@media (max-width: 600px) {
+    .social-page main.container,
+    .social-page main.network-template {
+        width: calc(100% - 28px);
+        margin: 18px auto;
+        padding: 16px;
     }
 }
